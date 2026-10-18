@@ -1,0 +1,10 @@
+{"name": "страница кейсов (боевая, только чтение)",
+ "base": "https://xndrexe.github.io",
+ "readonly": true,
+ "steps": [
+  {"open": "/", "name": "первый экран"},
+  {"open": "/#cases", "name": "кейсы"},
+  {"open": "/#services", "name": "услуги и цены"},
+  {"open": "/#process", "name": "как работаю"},
+  {"open": "/#contact", "name": "контакт"}
+ ]}
