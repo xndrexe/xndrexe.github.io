@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Костюхов — боты и автоматизация">
+  <rect width="512" height="512" rx="112" fill="#1764F4"/>
+  <path d="M128 136h256a32 32 0 0 1 32 32v160a32 32 0 0 1-32 32H232l-72 56v-56h-32a32 32 0 0 1-32-32V168a32 32 0 0 1 32-32z" fill="#FFFFFF"/>
+  <path d="M196 184h40v68l60-68h50l-68 74 72 78h-52l-62-70v70h-40z" fill="#1764F4"/>
+</svg>

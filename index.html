@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Александр Костюхов — боты для Telegram и MAX, парсеры, отчёты по маркетплейсам</title>
+<meta name="description" content="Боты для Telegram и MAX: запись клиентов, заявки, каталог и оплата. Парсеры в таблицы, отчёты Wildberries и Ozon, помощники по документам. Самозанятый, договор и чек.">
+<meta property="og:title" content="Александр Костюхов — боты и автоматизация">
+<meta property="og:description" content="Боты для Telegram и MAX, парсеры, отчёты Wildberries и Ozon, помощники по документам. Кейсы и цены.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__row">
+    <a class="brand" href="#">
+      <img src="assets/logo.svg" width="32" height="32" alt="Логотип">
+      <span>Александр Костюхов</span>
+    </a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#cases">Кейсы</a>
+      <a href="#services">Услуги и цены</a>
+      <a href="#process">Как работаю</a>
+    </nav>
+    <a class="btn btn--small" href="#contact">Написать</a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero wrap">
+ <div class="hero__grid">
+ <div class="hero__text">
+  <h1>Боты для Telegram и&nbsp;MAX, парсеры и&nbsp;отчёты по&nbsp;маркетплейсам</h1>
+  <p class="lead">Делаю под задачу малого бизнеса и студий: запись клиентов, приём заявок,
+    выгрузки в таблицы, помощники по документам. Самозанятый — работаю по договору, даю чек.</p>
+  <div class="hero__actions">
+    <a class="btn" href="#contact">Обсудить задачу</a>
+    <a class="btn btn--ghost" href="#cases">Смотреть кейсы</a>
+  </div>
+ </div>
+ <div class="hero__media" aria-hidden="true">
+  <img class="hero__back" src="assets/img/hero-wb.webp" width="1260" height="700" alt="">
+  <img class="hero__front" src="assets/img/hero-booking.webp" width="1190" height="538" alt="">
+ </div>
+ </div>
+  <ul class="facts">
+    <li><b>от 2 300 ₽</b><span>разовые задачи</span></li>
+    <li><b>1–5 дней</b><span>срок небольших задач</span></li>
+    <li><b>2 недели</b><span>бесплатных правок после сдачи</span></li>
+  </ul>
+</section>
+
+<section class="section" id="cases">
+  <div class="wrap">
+    <h2>Кейсы</h2>
+    <p class="section__lead">Рабочие проекты на выдуманных данных: салон, магазины и документы
+      созданы для показа, код и выгрузки — настоящие.</p>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>Telegram</li><li>MAX</li><li>Excel</li></ul>
+        <h3>Бот записи клиентов</h3>
+        <p class="case__for">Для салонов, барбершопов, студий и частных мастеров.</p>
+        <p>Клиент сам выбирает услугу, мастера и свободное время, оставляет имя и телефон.
+          За сутки бот напоминает о визите, отменить запись можно в два нажатия.
+          Telegram и MAX работают от одной базы — занятое время видно в обоих сразу.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> уведомления о записях и отменах
+          и выгрузку всех записей в Excel одной кнопкой.</p>
+      </div>
+      <figure class="case__media">
+        <a class="zoom" href="assets/img/booking-excel.webp"><img src="assets/img/booking-excel.webp" width="1600" height="453" loading="lazy"
+             alt="Таблица записей: дата, время, услуга, мастер, клиент, телефон, цена, мессенджер, статус"></a>
+        <figcaption>Выгрузка записей для владельца</figcaption>
+      </figure>
+    </article>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>Wildberries</li><li>Ozon</li><li>Google Таблицы</li></ul>
+        <h3>Отчёт по продажам Wildberries и Ozon</h3>
+        <p class="case__for">Для продавцов на маркетплейсах.</p>
+        <p>Забирает заказы, продажи, остатки и рекламу через официальный API площадки
+          и раскладывает по листам. Обновляется по расписанию, руками ничего сводить не нужно.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> продажи по дням с долей рекламных
+          расходов, остатки по складам с прогнозом «хватит на дней» и расходы по рекламным
+          кампаниям — в Excel или Google Таблице.</p>
+        <p class="case__code"><a href="https://github.com/xndrexe/wb-report-demo">Код проекта</a></p>
+      </div>
+      <figure class="case__media">
+        <a class="zoom" href="assets/img/wb-sales.webp"><img src="assets/img/wb-sales.webp" width="1600" height="839" loading="lazy"
+             alt="Лист продаж Wildberries по дням: заказы, выкупы, возвраты, продажи, реклама, ДРР"></a>
+        <figcaption>Лист продаж Wildberries за 30 дней</figcaption>
+      </figure>
+    </article>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>Парсинг</li><li>Excel</li><li>Уведомления</li></ul>
+        <h3>Парсер каталога с выгрузкой в таблицу</h3>
+        <p class="case__for">Для магазинов, которые следят за ценами конкурентов и поставщиков.</p>
+        <p>Обходит каталог сайта и сохраняет название, цену, наличие и ссылку. При повторном
+          запуске сравнивает с прошлым разом и находит, что подорожало, подешевело или кончилось.
+          Тысячу товаров собирает примерно за минуту.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> таблицу товаров, отдельный лист
+          изменений цены и наличия и уведомление, когда что-то поменялось.</p>
+        <p class="case__code"><a href="https://github.com/xndrexe/price-parser-demo">Код проекта</a></p>
+      </div>
+      <figure class="case__media">
+        <a class="zoom" href="assets/img/parser-changes.webp"><img src="assets/img/parser-changes.webp" width="1122" height="432" loading="lazy"
+             alt="Лист изменений: время, что поменялось, товар, было и стало"></a>
+        <figcaption>Лист изменений цены и наличия</figcaption>
+      </figure>
+    </article>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>Telegram</li><li>PDF и Word</li></ul>
+        <h3>ИИ-помощник по документам</h3>
+        <p class="case__for">Для сервисных центров, магазинов и компаний с регламентами.</p>
+        <p>Читает договоры, прайсы и инструкции в PDF, Word и тексте. Отвечает на вопрос своими
+          словами и указывает документ и страницу, откуда взял ответ. Если в документах ответа
+          нет — так и говорит, а не выдумывает.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> бота в Telegram для сотрудников или
+          клиентов; новый документ добавляется отправкой файла боту.</p>
+      </div>
+      <figure class="case__media">
+        <div class="qa">
+          <p class="qa__label">Вопрос</p>
+          <p class="qa__q">Сколько стоит заменить аккумулятор в телефоне?</p>
+          <p class="qa__label">Ответ</p>
+          <p>Замена аккумулятора телефона стоит 1 800 рублей [1].</p>
+          <p class="qa__src">[1] Прайс на работы.txt</p>
+        </div>
+        <figcaption>Ответ из прогона на документах выдуманного сервисного центра</figcaption>
+      </figure>
+    </article>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>Excel</li><li>CSV</li><li>HTML</li></ul>
+        <h3>Сводный прайс из файлов поставщиков</h3>
+        <p class="case__for">Для закупщиков и оптовых магазинов.</p>
+        <p>Собирает прайсы в разных форматах в одну таблицу, приводит цены к числу и отмечает
+          наличие. Строки, которые не разобрались, например «цена по запросу», не теряет,
+          а выводит отдельным предупреждением.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> единый прайс по всем поставщикам
+          и список строк, которые стоит проверить руками.</p>
+      </div>
+      <figure class="case__media">
+        <a class="zoom" href="assets/img/pricelist.webp"><img src="assets/img/pricelist.webp" width="1600" height="924" loading="lazy"
+             alt="Сводный прайс: артикул, наименование, цена, наличие, исходный файл и предупреждение"></a>
+        <figcaption>Девять позиций из трёх файлов и одно предупреждение</figcaption>
+      </figure>
+    </article>
+
+    <article class="case">
+      <div class="case__text">
+        <ul class="tags"><li>API</li><li>Личный кабинет</li></ul>
+        <h3>Серверная часть с входом и ролями</h3>
+        <p class="case__for">Для сервисов, ботов и приложений, которым нужен личный кабинет.</p>
+        <p>Регистрация и вход, обновление сессии без повторного ввода пароля, роли пользователя
+          и администратора, защита от подбора пароля.</p>
+        <p class="case__gets"><b>Заказчик получает:</b> готовый API с документацией
+          и проверкой работоспособности для мониторинга.</p>
+      </div>
+      <figure class="case__media">
+        <a class="zoom" href="assets/img/api-log.webp"><img src="assets/img/api-log.webp" width="1600" height="1127" loading="lazy"
+             alt="Журнал запросов к серверу: регистрация, вход, профиль, отказ по роли, защита от подбора пароля"></a>
+        <figcaption>Журнал запросов к серверу</figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+
+<section class="section section--alt" id="services">
+  <div class="wrap">
+    <h2>Услуги и цены</h2>
+    <p class="section__lead">Цена «от» — за базовый объём. Точную называю после того,
+      как посмотрю задачу, и до начала работы.</p>
+
+    <div class="prices">
+      <div class="prices__group">
+        <h3>Разовые задачи</h3>
+        <ul class="price-list">
+          <li><span>Бот записи или каталога в Telegram</span><b>от 4 000 ₽</b><i>4 дня</i></li>
+          <li><span>Бот в MAX для заявок и записи</span><b>от 4 000 ₽</b><i>4 дня</i></li>
+          <li><span>Парсер сайта в Google Таблицу или Excel</span><b>от 3 000 ₽</b><i>3 дня</i></li>
+          <li><span>Отчёт Wildberries или Ozon в таблице</span><b>от 3 000 ₽</b><i>3 дня</i></li>
+          <li><span>ИИ-помощник по документам в Telegram</span><b>от 6 500 ₽</b><i>5 дней</i></li>
+          <li><span>Лендинг с формой, заявки в Telegram</span><b>от 5 000 ₽</b><i>4 дня</i></li>
+          <li><span>Расширение для Chrome или Яндекс Браузера</span><b>от 3 500 ₽</b><i>3 дня</i></li>
+          <li><span>Связка сервисов: заявки в Telegram, таблицу или CRM</span><b>от 3 000 ₽</b><i>2 дня</i></li>
+          <li><span>Автоматизация Google Таблицы или Excel</span><b>от 2 300 ₽</b><i>2 дня</i></li>
+          <li><span>Починка бота или скрипта на Python</span><b>от 2 500 ₽</b><i>1 день</i></li>
+          <li><span>Запуск бота, сайта или скрипта на сервере</span><b>от 2 300 ₽</b><i>1 день</i></li>
+          <li><span>Установка n8n на ваш сервер</span><b>от 2 300 ₽</b><i>1 день</i></li>
+        </ul>
+      </div>
+      <div class="prices__group">
+        <h3>Под ключ</h3>
+        <ul class="price-list">
+          <li><span>Telegram-бот для продаж: каталог, оплата, админка, рассылки</span><b>от 20 000 ₽</b><i>10 дней</i></li>
+          <li><span>Telegram Mini App: каталог, корзина и оплата</span><b>от 22 000 ₽</b><i>12 дней</i></li>
+          <li><span>ИИ-ассистент для Telegram, MAX и сайта с базой знаний</span><b>от 30 000 ₽</b><i>14 дней</i></li>
+          <li><span>Аналитика Wildberries и Ozon: юнит-экономика, сводка, уведомления</span><b>от 12 000 ₽</b><i>7 дней</i></li>
+        </ul>
+        <p class="note">Студиям: беру часть проекта на субподряд — бота, парсер, выгрузку
+          или серверную часть. С заказчиком общаетесь вы, от меня — код и инструкция.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="wrap">
+    <h2>Как работаю</h2>
+    <ol class="steps">
+      <li><b>Уточняю задачу</b><span>Задаю вопросы и присылаю план в 3–5 шагов с ценой и сроком.</span></li>
+      <li><b>Делаю и показываю</b><span>Промежуточный результат — по ходу работы, а не в последний день.</span></li>
+      <li><b>Сдаю и запускаю</b><span>Код целиком и инструкция. Запускаю на вашем сервере или помогаю выбрать.</span></li>
+      <li><b>Сопровождаю</b><span>Две недели после сдачи бесплатно исправляю найденные ошибки.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section--alt" id="contact">
+  <div class="wrap contact">
+    <h2>Напишите, что нужно сделать</h2>
+    <p class="section__lead">Опишите задачу в паре предложений — отвечу вопросами
+      или сразу планом с ценой и сроком.</p>
+    <!-- КОНТАКТ: почта меняется только здесь (и в README) -->
+    <a class="btn" href="mailto:kostyuhov.bots@yandex.ru">kostyuhov.bots@yandex.ru</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">© 2026 Александр Костюхов · самозанятый · договор и чек</div>
+</footer>
+
+</body>
+</html>
